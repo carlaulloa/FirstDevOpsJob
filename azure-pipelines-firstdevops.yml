@@ -60,5 +60,5 @@ stages:
         action: 'deploy'
         kubernetesServiceConnection: 'eks-connection'
         manifests: '$(System.ArtifactsDirectory)/Devops.yaml'
-        containers: 'antony0618/simple-devops:$(tag)'
+        containers: 'carlaulloa/simple-devops:$(tag)'
     
