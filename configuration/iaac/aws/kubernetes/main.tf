@@ -33,7 +33,7 @@ module "aforo255-clusterccu" {
   source          = "terraform-aws-modules/eks/aws"
   cluster_name    = "aforo255-clusterccu"
   cluster_version = "1.17"
-  subnets         = ["subnet-a6616498", "subnet-7a2b8374"]  # en aws VPC > Subnet
+  subnets         = ["subnet-cb6e9d94", "subnet-7a2b8374"]  # en aws VPC > Subnet
   #subnets = data.aws_subnet_ids.subnets.ids
   vpc_id          = aws_default_vpc.default.id
   #vpc_id         = "vpc-1234556abcdef" 
