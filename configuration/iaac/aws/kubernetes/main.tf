@@ -81,7 +81,7 @@ provider "aws" {
 }
 
 resource "aws_iam_role" "test_role_dev" {
-  name = "test_role_dev"
+  name = "terraform"
 
   # Terraform's "jsonencode" function converts a
   # Terraform expression result to valid JSON syntax.
