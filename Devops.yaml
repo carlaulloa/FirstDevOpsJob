@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-devops
-        image: antony0618/simple-devops:latest
+        image: carlaulloa/simple-devops:latest
         ports:
         - containerPort: 8080
 ---
