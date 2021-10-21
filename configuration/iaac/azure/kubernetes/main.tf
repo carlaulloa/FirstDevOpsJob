@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "gr01-devops"
+  name     = "gr02-devops"
   location = "eastus"
 }
 
