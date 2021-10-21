@@ -58,6 +58,6 @@ stages:
     - task: KubernetesManifest@0
       inputs:
         action: 'deploy'
-        kubernetesServiceConnection: 'eks-connection'
+        kubernetesServiceConnection: 'aks-connection'
         manifests: '$(System.ArtifactsDirectory)/Devops.yaml'
         containers: 'carlaulloa/simple-devops:$(tag)'
