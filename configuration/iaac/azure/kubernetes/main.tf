@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "example" {
+data "azurerm_resource_group" "example" {
   name     = "gr01-devops"
   location = "eastus"
 }
