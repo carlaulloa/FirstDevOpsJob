@@ -5,9 +5,9 @@ provider "azurerm" {
 terraform {
   backend  "azurerm"  {
     resource_group_name = "gr01-devops"
-    storage_account_name = "backendccu"
-    container_name = "terraform"
-    key = "terraform.tfstate"
+    storage_account_name = "STORAGE_ACCOUNT_NAME"
+    container_name       = "CONTAINER_NAME"
+    key                  = "terraform-aks"
   }
 }
 
