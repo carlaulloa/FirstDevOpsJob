@@ -1,9 +1,9 @@
 terraform {
-  backend "azurerm" {
-    resource_group_name  = "gr01-devops"
-    storage_account_name = "backendccu"
-    container_name       = "terraform"
-    key                  = "terraform.tfstate"
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=2.48.0"
+    }
   }
 }
 
