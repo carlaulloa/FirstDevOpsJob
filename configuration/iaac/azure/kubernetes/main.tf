@@ -7,7 +7,7 @@ terraform {
     resource_group_name = "gr01-devops"
     storage_account_name = "STORAGE_ACCOUNT_NAME"
     container_name       = "CONTAINER_NAME"
-    key                  = "terraform-aks"
+    key                  = "key"
   }
 }
 
