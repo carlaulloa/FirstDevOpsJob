@@ -2,6 +2,10 @@ provider "azurerm" {
   features {}
 }
 
+terraform {
+  backend  "azurerm"  {}
+}
+
 resource "azurerm_resource_group" "example" {
   name     = "gr04-devops"
   location = "eastus"
